@@ -72,9 +72,9 @@ npx hardhat run scripts/deploy.js --network sepolia
 ### Usage Example
 
 ```javascript
-const message = "I, hereby verify that I am the owner/creator of the address [0x91211A4965e75152Cb549b308f8ba398c3aB337e]";
+const message = "I, Nicolas Garibay hereby verify that I am the owner/creator of the address [0x91211A4965e75152Cb549b308f8ba398c3aB337e]";
 
-    //  Nicolas Sign the message
+    //  Sign the message
 const signature = await signer.signMessage(ethers.getBytes(messageHash));
 
 // Verify ownership on-chain
