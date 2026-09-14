@@ -1,4 +1,4 @@
-## Ethereum Signature Verifier
+    ## Ethereum Signature Verifier
 
 A smart contract for verifying Ethereum signatures and proving ownership of addresses on-chain.
 
